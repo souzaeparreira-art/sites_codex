@@ -1,0 +1,158 @@
+/* Responsive refinements for the approved Park landing. */
+*,*::before,*::after{box-sizing:border-box}
+.hero>*,.experiencia-heading>*,.motivos>*,.conversao>*,.perguntas>*,.final-heading>*,.final-bottom>*{min-width:0}
+input,button{max-width:100%}
+.cadastro,.mini-passos p,.privacidade,#status{overflow-wrap:anywhere}
+.motivo-top{gap:12px}.motivo-top>span:last-child{flex-shrink:0}
+.final h2{min-width:0}
+.topo-cta,.hero-scroll a,.round-link{min-height:44px}
+.hero-scroll a{min-width:44px}
+.hero-art{aspect-ratio:4/5}
+.hero-photo{object-position:50% 50%}
+@media(min-width:701px) and (max-width:1000px){
+  .motivos{grid-template-columns:1fr;gap:18px}
+  .motivo{min-height:240px;display:grid;grid-template-columns:minmax(0,1fr) minmax(160px,.7fr);column-gap:30px;padding:28px 32px}
+  .motivo-top{grid-column:1/-1;margin-bottom:20px}
+  .motivo .painel{grid-column:1;grid-row:2;margin:0;align-self:center}
+  .motivo-graphic,.globe,.future-graphic{grid-column:2;grid-row:2;justify-self:center;margin:0;padding:0}
+  .motivo h3{font-size:26px}.motivo p{font-size:17px}
+  .conversao{gap:35px}.cadastro{padding:28px 22px 22px}
+}
+@media(max-width:900px){
+  .header-note{display:none}
+  .hero{grid-template-columns:minmax(0,1fr);gap:0;padding-top:35px}
+  .abertura{padding:10px 0 30px}
+  .hero h1{font-size:clamp(34px,7.7vw,60px);line-height:1.17;letter-spacing:-.075em}
+  .hero .descricao{max-width:560px;font-size:18px}
+  .hero-bottom{justify-content:flex-start;gap:12px 25px}
+  .hero-art{min-height:0;height:auto;max-width:580px;width:100%;justify-self:center;border-radius:75px 5px 75px 5px}
+  .hero-photo{inset:0;width:100%;height:100%;object-position:center}
+  .hero-scroll{grid-column:1;padding:22px 0;gap:20px}
+  .faixa{transform:none;margin:0;width:100%}
+  .experiencia-heading{grid-template-columns:minmax(0,1fr);gap:24px}
+  .experiencia-heading>p{margin:0;font-size:19px}
+  .conversao{grid-template-columns:minmax(0,1fr);gap:45px}
+  .cadastro{max-width:600px;width:100%;justify-self:center}
+  .convite h2{font-size:clamp(32px,6vw,46px)}
+  .convite>p{font-size:19px}
+  .perguntas{grid-template-columns:minmax(0,1fr);gap:30px}
+  .final-heading{gap:20px;align-items:center}
+  .final h2{font-size:clamp(27px,5.2vw,48px)}
+  .final .round-link{width:65px;height:65px;font-size:35px}
+}
+@media(max-width:700px){
+  html{scroll-padding-top:20px}
+  .limite{width:calc(100% - 40px)}
+  .topo{height:80px;gap:12px}
+  .marca{min-width:0;gap:10px;flex-shrink:1}
+  .marca img{flex-shrink:0;width:74px;height:35px}
+  .marca>span{font-size:8px;padding-left:10px;white-space:nowrap}
+  .topo-cta{font-size:11px;gap:8px;padding:10px 12px;white-space:nowrap;flex-shrink:0}
+  .hero{padding-top:28px}
+  .hero h1{font-size:clamp(31px,8.8vw,55px)}
+  .hero .descricao{font-size:17px;max-width:100%;margin:23px 0 26px}
+  .hero-button{width:100%;min-height:55px;gap:20px;padding:17px 20px;font-size:15px}
+  .hero-bottom{gap:9px 18px;font-size:8px;margin-top:22px}
+  .hero-bottom>span{max-width:100%}
+  .art-word{font-size:clamp(43px,12.5vw,70px);left:20px;top:22px}
+  .art-sticker{right:12px;bottom:45px;font-size:13px;padding:16px 18px}
+  .image-disclaimer{font-size:9px;left:16px;right:16px;bottom:9px;padding:5px;line-height:1.3}
+  .hero-scroll{font-size:8px;letter-spacing:.04em}
+  .hero-scroll>span{max-width:78%}
+  .hero-scroll>a{width:44px;height:44px;flex-shrink:0}
+  .faixa{padding:18px 0}
+  .faixa-track{gap:28px}.faixa-track span{font-size:16px}
+  .experiencia{padding:54px 0}
+  .experiencia-heading h2{font-size:32px;line-height:1.24}
+  .experiencia-heading>p{font-size:18px;line-height:1.5}
+  .motivos{grid-template-columns:minmax(0,1fr);margin-top:28px;gap:18px}
+  .motivo{display:grid;grid-template-columns:minmax(0,1fr) 105px;gap:12px;min-height:0;padding:25px 22px}
+  .motivo-top{grid-column:1/-1;font-size:9px;margin-bottom:8px;align-items:center}
+  .motivo .painel{grid-column:1/-1;grid-row:3;margin:10px 0 0}
+  .motivo h3{font-size:25px;line-height:1.25;margin-bottom:12px}
+  .motivo h3 br{display:none}
+  .motivo p{font-size:16px;line-height:1.55;max-width:100%}
+  .motivo-graphic,.globe,.future-graphic{grid-row:2;grid-column:2;justify-self:center;align-self:center;margin:0;max-width:100%}
+  .motivo-graphic{grid-column:1/-1;justify-self:start;font-size:34px;line-height:1;transform:rotate(-5deg);padding:12px 0 15px}
+  .globe{width:98px;height:98px;margin:8px 0 12px}
+  .future-graphic{font-size:66px;line-height:1.35;transform:rotate(-8deg)}
+  .future-graphic>span{font-size:37px;margin-left:0}
+  .manifesto{padding:50px 0}
+  .manifesto h2{font-size:clamp(22px,5.7vw,31px);line-height:1.45;overflow-wrap:normal}
+  .manifesto h2>br{display:none}
+  .manifesto-bottom{align-items:center;gap:16px;margin-top:26px}
+  .manifesto-bottom p{max-width:none;flex:1;font-size:17px;line-height:1.55}
+  .round-link{width:52px;height:52px;font-size:30px}
+  .conversao{padding:55px 0;gap:42px}
+  .convite h2{font-size:clamp(30px,8.3vw,40px);line-height:1.24}
+  .convite>p{font-size:18px;line-height:1.5;margin:23px 0}
+  .mini-passos li{gap:15px;padding:18px 0}
+  .mini-passos li>span{flex-shrink:0}
+  .mini-passos h3{font-size:18px;line-height:1.4}
+  .mini-passos p{font-size:15px;line-height:1.5}
+  .endereco{gap:14px;padding-top:22px}
+  .endereco p{font-size:14px;line-height:1.6}
+  .cadastro{padding:28px 22px 24px;box-shadow:5px 7px 0 #41afff20;scroll-margin-top:24px}
+  .cadastro h2{font-size:clamp(23px,6.1vw,30px);line-height:1.3}
+  .cadastro>p{font-size:16px;line-height:1.55}
+  .form-heading{margin-bottom:22px}
+  .form-tag{font-size:10px;padding:8px 10px}
+  label{font-size:14px;margin-bottom:20px}
+  input{min-height:55px;font-size:16px;padding:15px 12px}
+  .privacidade{font-size:12px;line-height:1.6}
+  .cadastro button{min-height:58px;padding:17px 15px;font-size:14px;line-height:1.4;gap:12px}
+  .cadastro button>span{flex-shrink:0;font-size:22px}
+  .nota,.pendencia{font-size:12px;line-height:1.5}
+  #status:not(:empty){font-size:15px}
+  .perguntas{padding:45px 0 55px;gap:24px}
+  .perguntas h2{font-size:32px;line-height:1.25}
+  .perguntas summary{font-size:17px;line-height:1.45;min-height:44px;align-items:center;gap:15px}
+  .perguntas summary:after{flex-shrink:0}
+  .perguntas details p{font-size:16px;line-height:1.6}
+  .final{padding:48px 0}
+  .final-heading{flex-direction:column;align-items:flex-start;gap:25px}
+  .final h2{font-size:clamp(27px,7vw,39px);line-height:1.3}
+  .final .round-link{height:52px;width:52px;font-size:29px}
+  .final-bottom{margin-top:28px;gap:20px}
+  .final-bottom p{font-size:16px}
+  .final-bottom .link{font-size:15px;line-height:1.6;min-height:44px;display:flex;align-items:center}
+  footer{font-size:12px;line-height:1.5;gap:12px 20px;padding:25px 0 calc(100px + env(safe-area-inset-bottom,0px))}
+  footer>a{min-height:44px;display:inline-flex;align-items:center}
+  .cta-mobile{bottom:calc(12px + env(safe-area-inset-bottom,0px));left:20px;right:20px;min-height:56px;padding:16px 12px;font-size:14px;text-align:center;line-height:1.4}
+  .cta-mobile.oculta{display:none}
+}
+@media(max-width:360px){
+  .limite{width:calc(100% - 32px)}
+  .marca>span{display:none}
+  .topo-cta{font-size:11px}
+  .hero h1{font-size:30px}
+  .hero-bottom{font-size:8px;gap:9px}
+  .hero-art{border-radius:55px 4px 55px 4px}
+  .cadastro{padding:25px 18px 22px}
+  .cadastro h2{font-size:23px}
+  .cadastro button{font-size:13px;padding:15px 12px}
+  .motivo{padding:23px 20px}
+  .final h2{font-size:27px}
+  .cta-mobile{left:16px;right:16px;font-size:13px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+/* Two identical long groups make the animated strip seamless on wide screens. */
+.faixa-track{gap:0;animation:marquee 65s linear infinite}
+.faixa-group{display:flex;align-items:center;gap:50px;padding-right:50px;flex:none;min-width:100vw}
+.faixa-group>span,.faixa-group>b{flex:none;white-space:nowrap}
+@media(max-width:700px){.faixa-group{gap:28px;padding-right:28px}}
+@media(prefers-reduced-motion:reduce){.faixa-track{animation:none}}
+/* Match the full single-column breakpoint, including wider phones and tablets. */
+@media(max-width:900px){
+  .hero .abertura{display:contents}
+  .hero>h1,.hero .abertura>h1{grid-column:1;grid-row:1;margin:12px 0 25px}
+  .hero .hero-art{grid-column:1;grid-row:2;margin:0 0 25px}
+  .hero .abertura>.descricao{grid-column:1;grid-row:3;margin:0 0 25px}
+  .hero .hero-button{grid-column:1;grid-row:4}
+  .hero .hero-bottom{grid-column:1;grid-row:5;margin:22px 0 0}
+  .hero .hero-scroll{grid-column:1;grid-row:6}
+}
+/* Local unit name stays visible and prominent alongside the official logo. */
+.marca>span{display:block;font-size:15px;font-weight:700;letter-spacing:.13em;color:#15354b;padding-left:18px;border-left:1px solid #aebbc5}
+@media(max-width:700px){.marca>span{font-size:12px;letter-spacing:.1em;padding-left:10px}.marca{gap:10px}}
+@media(max-width:360px){.marca>span{display:block;font-size:10px;letter-spacing:.06em;padding-left:8px}.marca{gap:8px}.marca img{width:65px}.topo-cta{padding:10px 8px;font-size:10px;gap:5px}}

@@ -1,0 +1,171 @@
+{
+  "_assinatura": "Site Cinematográfico · Labrego IA · LBG-SC-2026-v1",
+  "nome": "Park Piracicaba",
+  "slug": "park-piracicaba",
+  "negocio": "Escola de inglês presencial em Piracicaba/SP",
+  "publico": "Crianças, adolescentes, adultos e responsáveis",
+  "endereco": "Rua Saldanha Marinho, 1245 — Cidade Jardim, Piracicaba/SP",
+  "objetivo": "Captação qualificada e solicitação de Aula Experimental; confirmação apenas mediante sucesso de integração real",
+  "identidade": {
+    "cores": {
+      "fundo": "#FFFFFF",
+      "texto": "#000000",
+      "acento": "#41AFFF"
+    },
+    "fontes": {
+      "titulo": "Syncopate",
+      "texto": "Karla"
+    },
+    "clima": [
+      "acolhedor",
+      "moderno",
+      "claro"
+    ],
+    "tema": "claro",
+    "origem": "Arquivos locais da referência Park Education; azul confirmado no CSS, fontes disponíveis no pacote; uso sujeito à aprovação visual"
+  },
+  "logo": "C:/Users/wyler/Downloads/saveweb2zip-com-park-education/images/park-logo.png",
+  "copy": {
+    "frase_abertura": "Seu inglês começa a ganhar vida quando você começa a falar.",
+    "conceito_central": "O inglês precisa fazer parte da sua vida, não ficar apenas no caderno.",
+    "diferenciais": [],
+    "depoimentos_reais": [],
+    "status": "Textos do briefing são propostas sujeitas à validação da escola"
+  },
+  "referencias": [
+    "C:/Users/wyler/Downloads/saveweb2zip-com-park-education/index.html",
+    "C:/Users/wyler/Downloads/screencapture-park-education-2026-10-27-10_02_53 (1).png"
+  ],
+  "whatsapp": {
+    "numero": null,
+    "mensagem": "Olá! Quero conhecer a Park Piracicaba e solicitar uma Aula Experimental."
+  },
+  "email_contato": null,
+  "paginas": [
+    "/",
+    "/ingles-infantil",
+    "/ingles-adolescentes",
+    "/ingles-adulto",
+    "/metodologia",
+    "/sobre",
+    "/aula-experimental",
+    "/contato",
+    "/politica-de-privacidade",
+    "/termos-de-uso"
+  ],
+  "secoes": [
+    "abertura cinematográfica",
+    "cursos por público",
+    "benefícios",
+    "proposta de aprendizagem",
+    "infantil",
+    "adulto",
+    "unidade com imagens reais quando fornecidas",
+    "etapas da aula experimental",
+    "FAQ com respostas confirmadas",
+    "localização",
+    "contato"
+  ],
+  "formularios": {
+    "infantil": [
+      "nome do responsável",
+      "WhatsApp",
+      "e-mail",
+      "faixa etária a confirmar",
+      "possibilidade de investimento",
+      "consentimento"
+    ],
+    "pontuacao_infantil": {
+      "faixa_etaria_cadastrada": 30,
+      "investimento_sim": 70,
+      "investimento_talvez": 35,
+      "investimento_nao": 0,
+      "frio": [
+        0,
+        39
+      ],
+      "morno": [
+        40,
+        69
+      ],
+      "quente": [
+        70,
+        100
+      ]
+    },
+    "adulto": [
+      "nome",
+      "WhatsApp",
+      "e-mail",
+      "objetivo",
+      "preferência de horário",
+      "possibilidade de investimento",
+      "consentimento"
+    ],
+    "pontuacao_adulto": null,
+    "regra": "Pontuação exclusivamente no servidor; nenhum sucesso simulado; destino não configurado deve ser sinalizado"
+  },
+  "integracoes": {
+    "make": null,
+    "google_calendar": null,
+    "crm": null,
+    "ga4": null,
+    "gtm": null,
+    "meta_pixel": null,
+    "utm": [
+      "utm_source",
+      "utm_medium",
+      "utm_campaign",
+      "utm_content",
+      "utm_term"
+    ],
+    "eventos": [
+      "PageView",
+      "ViewContent",
+      "Lead",
+      "Contact",
+      "Schedule"
+    ],
+    "regra": "Sem tokens no navegador; eventos de conversão apenas após sucesso real; rastreamento condicionado à configuração de privacidade"
+  },
+  "pendencias": [
+    "WhatsApp",
+    "e-mail",
+    "domínio",
+    "redes sociais",
+    "horários",
+    "faixas etárias",
+    "cursos confirmados",
+    "metodologia validada",
+    "regras da Aula Experimental",
+    "fotos autorizadas da unidade",
+    "depoimentos autorizados",
+    "dados empresariais",
+    "revisão legal",
+    "destino dos leads",
+    "agenda e CRM",
+    "IDs de rastreamento",
+    "chave OpenRouter",
+    "FFmpeg"
+  ],
+  "regras": [
+    "Não inventar fatos comerciais",
+    "Não apresentar imagens da rede como unidade local",
+    "Imagens geradas claramente ilustrativas",
+    "Sem agenda fictícia",
+    "Sem publicação automática",
+    "Não prometer fluência ou resultados garantidos"
+  ],
+  "credito_rodape": true,
+  "conceito": "O inglês sai do caderno e entra na conversa, com movimento e formas gráficas da Park.",
+  "modelos": {
+    "video": "bytedance/seedance-2.0",
+    "imagem": "google/gemini-3-pro-image",
+    "status": "Propostos; disponibilidade e preços não confirmados por bloqueio de rede"
+  },
+  "geracao": {
+    "status": "Conceito aprovado; previa local de 10 paginas criada; geracao paga bloqueada pela rede; contatos e integracoes pendentes",
+    "gasto_usd": 0,
+    "conceito_aprovado": true
+  }
+}
