@@ -1,12 +1,6 @@
 /* Site Cinematográfico · Labrego IA */
 (() => {
   'use strict';
-  document.querySelector('#load-map')?.addEventListener('click', e => {
-    const iframe = document.createElement('iframe');
-    iframe.title = 'Mapa da Park Piracicaba'; iframe.loading = 'lazy'; iframe.referrerPolicy = 'no-referrer';
-    iframe.src = 'https://maps.google.com/maps?q=Rua+Saldanha+Marinho+1245+Piracicaba+SP&output=embed';
-    e.currentTarget.closest('.mapa').replaceChildren(iframe);
-  });
   const form = document.querySelector('#captura');
   const status = document.querySelector('#status');
   const config = window.SITE || {};
