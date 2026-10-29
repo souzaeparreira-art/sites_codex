@@ -156,3 +156,23 @@ input,button{max-width:100%}
 .marca>span{display:block;font-size:15px;font-weight:700;letter-spacing:.13em;color:#15354b;padding-left:18px;border-left:1px solid #aebbc5}
 @media(max-width:700px){.marca>span{font-size:12px;letter-spacing:.1em;padding-left:10px}.marca{gap:10px}}
 @media(max-width:360px){.marca>span{display:block;font-size:10px;letter-spacing:.06em;padding-left:8px}.marca{gap:8px}.marca img{width:65px}.topo-cta{padding:10px 8px;font-size:10px;gap:5px}}
+
+/* Adult classes, prominent tagline and the unit map. */
+.header-note{font-size:clamp(13px,1.15vw,17px);line-height:1.5;max-width:330px;text-align:center}
+.adulto-modalidades{display:flex;flex-direction:column;gap:7px;margin:0 0 26px;padding:16px 18px;border-left:4px solid #41afff;background:#e9f5ff;color:#15354b;font-size:18px;line-height:1.5}
+.adulto-modalidades strong{font-size:12px;letter-spacing:.08em}
+.mapa-unidade{margin-top:22px}
+.mapa-unidade .mapa{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:12px;min-height:280px;padding:20px;background:#e9f5ff;border:1px solid #bcdcf0;border-radius:12px;overflow:hidden}
+.mapa-unidade .mapa p{font-size:13px;text-align:center;margin:0}
+.mapa-unidade .mapa:has(iframe){padding:0}
+.mapa-unidade iframe{display:block;width:100%;height:300px;border:0}
+.mapa-rota{display:inline-flex;align-items:center;min-height:44px;margin-top:8px;color:#15354b;text-decoration:underline}
+@media(max-width:900px){
+  .topo{height:auto;min-height:80px;flex-wrap:wrap;padding-top:16px;padding-bottom:16px}
+  .header-note{display:block;order:3;flex-basis:100%;max-width:none;font-size:14px}
+  .hero .abertura>.adulto-modalidades{grid-column:1;grid-row:4;margin:0 0 22px}
+  .hero .hero-button{grid-row:5}
+  .hero .hero-bottom{grid-row:6}
+  .hero .hero-scroll{grid-row:7}
+}
+@media(max-width:700px){.adulto-modalidades{font-size:17px}.mapa-unidade iframe{height:260px}}
